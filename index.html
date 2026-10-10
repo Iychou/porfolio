@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Field Notes — Geology Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<nav class="topnav" id="topnav">
+  <span class="brand">Field Notes</span>
+  <div class="links">
+    <a href="#about">About</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#stats">By the Numbers</a>
+    <a href="#collection">Collection</a>
+    <a href="#expeditions">Expeditions</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero-bg" id="heroBg">
+    <div class="hero-bg-blur" id="heroBgBlur"></div>
+    <div class="hero-bg-main" id="heroBgMain"></div>
+  </div>
+  <div class="hero-gradient"></div>
+  <div class="hero-content">
+    <p class="eyebrow reveal">Geology &amp; Fieldwork Portfolio</p>
+    <h1 class="hero-title" id="heroTitle"></h1>
+    <p class="hero-tag reveal" id="heroTag"></p>
+  </div>
+  <div class="scroll-cue reveal"><span>Scroll to descend</span><i></i></div>
+</header>
+
+<!-- ABOUT — split screen, matches the reference layout -->
+<section class="about" id="about">
+  <div class="about-photo reveal-left">
+    <img id="portraitImg" src="" alt="Portrait of the geologist">
+    <span class="corner tl"></span><span class="corner tr"></span>
+  </div>
+
+  <div class="about-copy">
+    <p class="eyebrow" id="aboutEyebrow"></p>
+    <p class="kicker" id="aboutKicker"></p>
+    <h2 id="aboutName"></h2>
+    <p class="role-line" id="aboutTitle"></p>
+    <hr>
+    <p class="lede" id="aboutBio"></p>
+
+    <div class="career">
+      <p class="section-label">Career</p>
+      <div class="career-cols">
+        <ol class="career-col" id="careerLeft"></ol>
+        <ol class="career-col" id="careerRight"></ol>
+      </div>
+    </div>
+
+    <div class="edu">
+      <p class="section-label">Education</p>
+      <ul id="eduList" class="edu-list"></ul>
+    </div>
+
+    <div class="skills" id="skillsWrap">
+      <p class="section-label">Expertise</p>
+      <div class="skill-tags" id="skillTags"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="certifications" id="certifications">
+  <div class="section-head">
+    <p class="eyebrow">Professional Development</p>
+    <h2>Certifications</h2>
+    <p class="lede">Certification </p>
+  </div>
+  <div class="cert-grid" id="certGrid"></div>
+</section>
+
+<!-- STATS -->
+<section class="stats" id="stats">
+  <div class="stats-grid" id="statsGrid"></div>
+</section>
+
+<!-- COLLECTION -->
+<section class="collection" id="collection">
+  <div class="section-head">
+    <p class="eyebrow">The Collection</p>
+    <h2>Specimens from the field</h2>
+    <p class="lede">Every piece below was catalogued on site. Click one to open the full field record.</p>
+  </div>
+  <div class="gallery" id="gallery"></div>
+</section>
+
+<!-- IN THE FIELD -->
+<section class="field" id="field">
+  <div class="field-parallax">
+    <img src="images/field-cataloguing.jpg" alt="Cataloguing core samples in the field" id="fieldImg">
+  </div>
+  <div class="field-quote">
+    <p>"Every layer is a sentence. Read enough of them, and the rock tells you its whole history."</p>
+  </div>
+</section>
+
+<!-- EXPEDITIONS / MAPS -->
+<section class="expeditions" id="expeditions">
+  <div class="section-head">
+    <p class="eyebrow">Where I've Been</p>
+    <h2>Expeditions &amp; sites</h2>
+    <p class="lede">Places worked and explored across the field seasons — drop in a real map embed or screenshot for any site below.</p>
+  </div>
+
+  <div class="mini-map-wrap reveal">
+    <svg viewBox="0 0 600 340" class="mini-map" id="miniMap">
+      <rect width="600" height="340" fill="url(#mapgrad)"/>
+      <defs>
+        <linearGradient id="mapgrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#e7ddc7"/><stop offset="1" stop-color="#d8c9a3"/>
+        </linearGradient>
+      </defs>
+      <g stroke="#b99a5b" stroke-width="1.2" fill="none" opacity=".5">
+        <path d="M0,90 Q100,60 200,95 T400,80 T600,100"/>
+        <path d="M0,160 Q120,130 240,165 T480,150 T600,170"/>
+        <path d="M0,230 Q140,200 280,235 T560,215 T600,225"/>
+        <path d="M0,280 Q160,255 320,285 T600,270"/>
+      </g>
+      <g id="mapPins"></g>
+    </svg>
+  </div>
+
+  <div class="expedition-grid" id="expeditionGrid"></div>
+</section>
+
+<!-- CONTACT -->
+<footer class="contact" id="contact">
+  <p class="eyebrow">Get in touch</p>
+  <h2 id="contactName"></h2>
+  <a class="email" id="contactEmail" href="#"></a>
+  <p class="location" id="contactLocation"></p>
+  <p class="fine">Portfolio built from field photography <code></code>.</p>
+</footer>
+
+<!-- SPECIMEN — FULL-SCREEN MODAL -->
+<div class="modal-backdrop" id="backdrop"></div>
+<div class="modal" id="drawer" role="dialog" aria-modal="true">
+  <button class="modal-close" id="drawerClose" aria-label="Close">✕</button>
+  <div class="modal-inner">
+    <div class="modal-visual">
+      <div class="modal-img-wrap"><img class="modal-img" id="drawerImg" src="" alt=""></div>
+      <div class="modal-thumbs" id="drawerThumbs"></div>
+    </div>
+    <div class="modal-body">
+      <p class="eyebrow" id="drawerType">Specimen</p>
+      <h3 id="drawerTitle"></h3>
+      <p class="drawer-caption" id="drawerCaption"></p>
+
+      <div class="modal-meta">
+        <div><span>Depth / Interval</span><b id="drawerDepth"></b></div>
+        <div><span>Date Found</span><b id="drawerDate"></b></div>
+      </div>
+      <div class="specimen-details" id="drawerDetails"></div>
+
+      <div class="drawer-map">
+        <div class="map-visual" id="drawerMapVisual"></div>
+        <div class="map-caption">
+          <b id="drawerLocation">Add site name</b>
+          <span id="drawerCoords">Add coordinates</span>
+        </div>
+      </div>
+
+      <div class="drawer-article">
+        <p class="section-label">Field notes</p>
+        <div id="drawerArticle" class="drawer-article-copy"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
