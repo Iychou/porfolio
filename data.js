@@ -23,9 +23,9 @@ const GEOLOGIST = {
   location: "Marrakech, Morocco",
 
   education: [
-    { degree: "Master of Technology - MTech, Exploration et Valorisation des GÃ©oressources option Mine", school: "Faculty of Science and Technology, Gueliz â€“ Marrakech", year: "Sep 2020 â€“ Jun 2022" },
-    { degree: "Bachelor's degree in Earth and Space Sciences, Applied Geology specialization", school: "Semlalia Faculty of Science, Marrakech", year: "Sep 2017 â€“ Jun 2020" },
-    { degree: "Baccalaureate,SVT- Life and Earth Sciences", school: "Driss Premier High School in Agdz, Zagora", year: "Sep 2015 â€“ Jun 2017" }
+    { degree: "Master of Technology - MTech, Exploration et Valorisation des GÃ©oressources option Mine", school: "Faculty of Science and Technology, Gueliz - Marrakech", year: "Sep 2020 - Jun 2022" },
+    { degree: "Bachelor's degree in Earth and Space Sciences, Applied Geology specialization", school: "Semlalia Faculty of Science, Marrakech", year: "Sep 2017 - Jun 2020" },
+    { degree: "Baccalaureate,SVT- Life and Earth Sciences", school: "Driss Premier High School in Agdz, Zagora", year: "Sep 2015 - Jun 2017" }
 
   ],
 
@@ -60,12 +60,12 @@ const GEOLOGIST = {
      your screenshot. Anything obscured in the screenshot is
      marked [confirm]. */
   careerLeft: [
-    { period: "Aug 2024 â€“ Present", role: "GÃ©ologue d'exploration â€” Copper â€” Brownfield", org: "Managem Group Â· Full-time", place: "Sahara, Maroc" },
-    { period: "Oct 2022 â€“ Jun 2024", role: "Production and Exploration Geologist", org: "MOROCCO MINING COPPER Â· Full-time", place: "Haut Atlas Occidental" }
+    { period: "Aug 2024 – Present", role: "Geologue d'exploration at Copper – Brownfield", org: "Managem Group · Full-time", place: "Sahara, Maroc" },
+    { period: "Oct 2022 – Jun 2024", role: "Production and Exploration Geologist", org: "MOROCCO MINING COPPER · Full-time", place: "Haut Atlas Occidental" }
   ],
   careerRight: [
-    { period: "Aug 2022 - Sep 2022", role: "Production Geologist Â· Internship", org: "Managem Group", place: "Mine Bleida" },
-    { period: "Mar 2022 - Jun 2022", role: "Exploration Geologist Â· Internship", org: "Morocco Mining Copper", place: "Haut Atlas Occidental" }
+    { period: "Aug 2022 - Sep 2022", role: "Production Geologist - Internship", org: "Managem Group", place: "Mine Bleida" },
+    { period: "Mar 2022 - Jun 2022", role: "Exploration Geologist - Internship", org: "Morocco Mining Copper", place: "Haut Atlas Occidental" }
   ],
 
   skills: ["Geological Mapping", "Mineral Exploration", "Core Logging", "GIS &amp; Remote Sensing", "Resource Estimation", "Structural Geology", "Field Sampling", "Project Management", "Scientific Reporting"],
@@ -94,7 +94,7 @@ const SPECIMENS = [
       { label: "Sahara maroc", value: "Volcanogenic envirement" }
     ],
     title: "Banded Core Sample",
-    type: "Metamorphic â€” banded core",
+    type: "Metamorphic — banded core",
     caption: "Rhythmically banded rock recovered from a drilled core segment.",
     depth: "352 meters", dateFound: "2025",
     location: "Moroccan sahara", coords: "bir gandouz mines",
@@ -107,7 +107,7 @@ const SPECIMENS = [
     caption: "A fractured slab cut through by a bright mineral vein.",
     depth: " Guettioua Formation", dateFound: "Add date",
     location: " Msemrir area ", coords: "Central High Atlas, Morocco",
-    article: "Add a short write-up here â€” the vein mineralogy, host rock, and what it indicates about fluid activity at depth."
+    article: "Add a short write-up here — the vein mineralogy, host rock, and what it indicates about fluid activity at depth."
   },
   {
     id: 3, images: ["images/trace/track-bearing_surface.png"],
@@ -120,17 +120,17 @@ const SPECIMENS = [
     article: "a 30 cm by 25 cm sandstone slab preserving 12 shallow, ancient footprint impressions,To capture every subtle contour of the tracks, we used photogrammetric 3D point cloud modeling and false-color depth mapping. These digital terrain models provided high-precisioan elevation data, confirming shallow footprint depths of around 1.0 mm and clarifying the spatial relationship between the inward-rotated manus and the trailing pes print "
   },
   {
-    id: 4, images: ["images/spec-04.jpg", "images/spec-04.jpg"],
+    id: 4, images: ["images/spec-05.jpg", ],
     title: "Quartz Vein Core",
-    type: "Drill core â€” quartz vein",
+    type: "Drill core — quartz vein",
     caption: "A drilled core segment with a prominent white vein cutting the host rock.",
     depth: "Add depth / interval", dateFound: "Add date",
     location: "Add site name", coords: "Add coordinates",
-    article: "Add a short write-up here â€” vein orientation, thickness, and relevance to the exploration target."
+    article: "Add a short write-up here — vein orientation, thickness, and relevance to the exploration target."
   },
   {
     id: 5, images: ["images/trace/Carmelopodus1.png", "images/trace/Carmelopodus2.png"],
-    title: "Middleâ€“Late Jurassic tracks",
+    title: "Middle-Late Jurassic tracks",
     type: "Carmelopodus untermannorum tracks",
     caption: "Acicular green crystal growth set in a pale host matrix.",
     depth: "Guettioua Formation", dateFound: "2025",
@@ -140,7 +140,7 @@ const SPECIMENS = [
   },
   {
     id: 6, images: ["images/trace/Theropod.png"],
-    title: "Middleâ€“Late Jurassic tracks",
+    title: "Middle-Late Jurassic tracks",
     type: "(A, B, D, G) Changpeipus cf. C. carbonicus. (C): cf. Carmelopodus untermannorum. (E): grallatorid tracks indet. (F): cf.Kayentapus.isp Tracks",
     caption: "Medium-to-small tridactyl tracks characterized by slender digit impressions, acute claw terminations, and a projection of digit III that is significantly greater than the lateral digits (II and IV).",
     depth: "the Guettioua Formation", dateFound: "2025",
@@ -160,16 +160,16 @@ const SPECIMENS = [
   {
     id: 7, images: ["images/spec-07.jpg", "images/spec-07.jpg"],
     title: "In-Situ Bone Fragments",
-    type: "Fossil â€” in-situ fragments",
+    type: "Fossil — in-situ fragments",
     caption: "Larger fossil fragments still resting at the excavation surface.",
     depth: "Surface find", dateFound: "Add date",
     location: "Add site name", coords: "Add coordinates",
-    article: "Add a short write-up here â€” excavation notes, associated finds, and next steps for this locality."
+    article: "Add a short write-up here — excavation notes, associated finds, and next steps for this locality."
   },
   {
     id: 8, images: ["images/trace/spec-08.jpg",],
     title: "Fossil Impression",
-    type: "Fossil â€” surface impression",
+    type: "Fossil — surface impression",
     caption: "A faint impression preserved in fine-grained rock, shown with scale.",
     depth: "Surface find", dateFound: "Add date",
     location: "Haut Atlas, Morocco", coords: "Add exact coordinates",
