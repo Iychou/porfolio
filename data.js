@@ -186,7 +186,7 @@ const EXPEDITIONS = [
     id: 1, name: "Sahara, Maroc", region: "Southern Morocco",
     coords: "Bassin oulad Dlem",
     blurb: ". Carbonatite . Terres rares. Or . Greenfield.",
-    mapEmbed: "images/map/sahara.png",
+    mapEmbed: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14791.295849935195!2d-16.7621327038662!3d22.05632847780049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc1fedbeb1ef5495%3A0x3377a70b16c3cb77!2sBir%20Gandouz!5e0!3m2!1sfr!2sma!4v1792354197314!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>,
     specimenIds: []
   },
   {
