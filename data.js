@@ -158,7 +158,7 @@ const SPECIMENS = [
     ]
   },
   {
-    id: 7, images: ["images/spec-07.jpg", "images/spec-07.jpg"],
+    id: 7, images: ["images/bones/spec-07.jpg", "images/bones/spec-07.jpg"],
     title: "In-Situ Bone Fragments",
     type: "Fossil — in-situ fragments",
     caption: "Larger fossil fragments still resting at the excavation surface.",
@@ -186,21 +186,21 @@ const EXPEDITIONS = [
     id: 1, name: "Sahara, Maroc", region: "Southern Morocco",
     coords: "Bassin oulad Dlem",
     blurb: ". Carbonatite . Terres rares. Or . Greenfield.",
-    mapEmbed: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14791.295849935195!2d-16.7621327038662!3d22.05632847780049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc1fedbeb1ef5495%3A0x3377a70b16c3cb77!2sBir%20Gandouz!5e0!3m2!1sfr!2sma!4v1792354197314!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>,
+    mapEmbed: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14791.295849935195!2d-16.7621327038662!3d22.05632847780049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc1fedbeb1ef5495%3A0x3377a70b16c3cb77!2sBir%20Gandouz!5e0!3m2!1sfr!2sma!4v1792354197314!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`,
     specimenIds: []
   },
   {
     id: 2, name: "Haut atlas mountains", region: "Marrakech, Al houz",
     coords: "Marrakech - Tensift - Al Haouz",
     blurb: "APhosphorus-Phosphates , Uranium , Magnesite , Fluorine-Fluorite , and Copper mines.",
-    mapEmbed: "images/map/houz.png",
+    mapEmbed: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13617.695001523483!2d-6.950299748993304!3d31.42999913808348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbb2d4863786bc9%3A0xb3ad8c93d1f87f7a!2sHaut%20Atlas!5e0!3m2!1sfr!2sma!4v1792356019689!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`,
     specimenIds: []
   },
   {
     id: 3, name: "Blieda mine", region: "Maroc ,DrÃ¢a-Tafilalet",
     coords: "DrÃ¢a-Tafilalet ,Anti-Atlas. ",
     blurb: "gold- and palladium-bearing mineralization.",
-    mapEmbed: "images/map/Blieda.png",
+    mapEmbed:`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7862840.399558227!2d-7.652908468287142!3d30.422752202136216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbbf4cd0d57cab5%3A0x488bc08f7c6b5eb3!2sBleida!5e0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbbf4cd0d57cab5%3A0x488bc08f7c6b5eb3!2sBleida!5e0!2i1024!2i768!4f13.1!3m3!1m2!1s0xdbbf4cd0d57cab5%3A0x488bc08f7c6b5eb3!2sBleida!5e0!3m2!1sfr!2sma!4v1792356058095!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`,
     specimenIds: []
   }
 ];

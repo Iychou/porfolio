@@ -252,7 +252,7 @@ document.getElementById('drawerClose').addEventListener('click', closeDrawer);
 backdrop.addEventListener('click', closeDrawer);
 document.addEventListener('keydown', e => { if(e.key === 'Escape') closeDrawer(); });
 
-/* ================= EXPEDITIONS + MINI MAP ================= */
+/* ================= EXPEDITIONS ================= */
 const expGrid = document.getElementById('expeditionGrid');
 EXPEDITIONS.forEach(x => {
   const card = document.createElement('div');
@@ -271,22 +271,6 @@ EXPEDITIONS.forEach(x => {
     <div class="coords">${x.coords}</div>
   `;
   expGrid.appendChild(card);
-});
-
-/* pins on the illustrated mini-map, roughly spread across the width */
-const mapPins = document.getElementById('mapPins');
-EXPEDITIONS.forEach((x, i) => {
-  const cx = 90 + i * (420 / Math.max(1, EXPEDITIONS.length - 1));
-  const cy = 120 + (i % 2) * 70;
-  const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-  g.setAttribute('class', 'map-pin');
-  g.innerHTML = `
-    <circle class="ring" cx="${cx}" cy="${cy}" r="6"/>
-    <circle class="dot" cx="${cx}" cy="${cy}" r="5"/>
-    <text x="${cx + 10}" y="${cy + 4}">${x.name}</text>
-  `;
-  g.style.animationDelay = (i * 0.3) + 's';
-  mapPins.appendChild(g);
 });
 
 /* ================= SCROLL REVEALS ================= */
