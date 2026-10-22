@@ -186,8 +186,9 @@ const EXPEDITIONS = [
     id: 1, name: "Sahara, Maroc", region: "Southern Morocco",
     coords: "Bassin oulad Dlem",
     blurb: ". Carbonatite . Terres rares. Or . Greenfield.",
-    mapEmbed: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14791.295849935195!2d-16.7621327038662!3d22.05632847780049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc1fedbeb1ef5495%3A0x3377a70b16c3cb77!2sBir%20Gandouz!5e0!3m2!1sfr!2sma!4v1792354197314!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`,
+    mapEmbed: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1646772.9163946686!2d-16.755008108001228!3d22.28379650226248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc22482523302153%3A0xb7a6f81873dfd75a!2sSahara%20occidental!5e0!3m2!1sfr!2sma!4v1792406721377!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`,
     specimenIds: []
+   /**<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1646772.9163946686!2d-16.755008108001228!3d22.28379650226248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc22482523302153%3A0xb7a6f81873dfd75a!2sSahara%20occidental!5e0!3m2!1sfr!2sma!4v1792406721377!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> */
   },
   {
     id: 2, name: "Haut atlas mountains", region: "Marrakech, Al houz",
@@ -201,6 +202,13 @@ const EXPEDITIONS = [
     coords: "DrÃ¢a-Tafilalet ,Anti-Atlas. ",
     blurb: "gold- and palladium-bearing mineralization.",
     mapEmbed:`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7862840.399558227!2d-7.652908468287142!3d30.422752202136216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbbf4cd0d57cab5%3A0x488bc08f7c6b5eb3!2sBleida!5e0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbbf4cd0d57cab5%3A0x488bc08f7c6b5eb3!2sBleida!5e0!2i1024!2i768!4f13.1!3m3!1m2!1s0xdbbf4cd0d57cab5%3A0x488bc08f7c6b5eb3!2sBleida!5e0!3m2!1sfr!2sma!4v1792356058095!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`,
+    specimenIds: []
+  },
+  {
+    id: 4, name: "Msemrir tracksite", region: "Central High Atlas, Morocco",
+    coords: "Msemrir area",
+    blurb: "Jurassic dinosaur tracks preserved in sandstone: a 30 x 25 cm slab with 12 shallow footprints, alongside documented theropod trackways.",
+    mapEmbed: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13578.648893257416!2d-5.82846169880232!3d31.697800736127686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda325d944305fbf%3A0x673819d2a820eeb0!2sM'semrir!5e0!3m2!1sfr!2sma!4v1792489630305!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`,
     specimenIds: []
   }
 ];
